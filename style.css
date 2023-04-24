@@ -1,0 +1,19 @@
+
+
+body {
+    background-color: black;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    list-style: none;
+    box-sizing: border-box;
+}
